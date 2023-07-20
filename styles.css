@@ -1,0 +1,78 @@
+body {
+    background-image: url(bodybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hr1{
+    display: block;
+    position: sticky;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-left: auto;
+    border-width: 3px ;
+}
+.heading  {
+    color:black;
+    position: sticky;
+    font-family: cursive;
+    text-decoration: underline double 2px;
+    text-shadow: 2px 2px rgb(107, 201, 199);
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+
+.fdiv {
+    text-align: center;
+}
+#l1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:grey;
+    font-size: xx-large;
+}
+#text_area1  {
+    display: inline-block;
+    background-color:white ;
+    text-align: center;
+    /* font-style: italic; */
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-width: 5px;
+}
+button {
+    display: inline-block;
+    text-align: top;
+    color: black;
+    background-color:skyblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button:hover {
+    box-shadow: black 2px 2px 0.8pc;
+}
+ul {
+    list-style-image: url('2do.png');
+    image-resolution: 20px;
+    display: inline-block;
+    font-size: 30px ;
+    margin-left: 70px;
+    
+}
+
+ul li:hover {
+    background-color: rgb(128, 221, 206);
+}

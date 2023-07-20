@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TD-list</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1 class="heading">TODO LIST </h1>
+        <div class="fdiv">
+            <label for="tdlist" id="l1">TODO</label>
+            <textarea name="tdlist" id="text_area1"rows="1" cols="50" onplay="typeWriter()" placeholder="Ex: Go to market on 15 july 5 O' Clock"></textarea>
+            <button class="submit" onclick="addElement()">&#10133 SAVE</button>
+        </div>
+        <hr class="hr1">
+        <ul id="MyLi">
+        </ul>
+    </body>
+</html>
